@@ -1,14 +1,11 @@
-import './App.css'
+import Calendar from './components/Calendar';
 
 function App() {
-
   return (
-    <>
-      <div>
-        <h1 className='font-extrabold text-4xl'>Hello world!</h1>
-      </div>
-    </>
-  )
+    <div className="bg-gray-100 min-h-screen flex justify-center items-center py-8">
+      <Calendar />
+    </div>
+  );
 }
 
-export default App
+export default App;
